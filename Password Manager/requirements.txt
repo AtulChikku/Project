@@ -1,0 +1,14 @@
+Project Title : PASSWORD MANAGER
+
+Requirements :
+  1) bcrypt module --> used for hashing , install using : pip install bcrypt  , then import
+  2) cryptography library --> which includes Fernet for symmetric encryption , 
+  install using : pip install cryptography , then import
+  3) import os module
+  4) import re module
+  5) import sqlite3 module
+  6) getpass module --> used to hide passwords while taking input for security purposes , 
+  install using : pip install getpass , then import
+  7) dotenv module --> used to access .env file where sensitive information is stored ,
+   install using : pip install python-dotenv , then import
+  8) pytest module --> for testing the code
